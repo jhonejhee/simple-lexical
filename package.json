@@ -1,6 +1,6 @@
 {
   "name": "@jhonejhee/simple-lexical",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple, lightweight component inspired by [Facebook's Lexical](https://github.com/facebook/lexical).  \r This project provides a minimal, watered-down version for easier integration and experimentation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,8 +38,8 @@
     "ui",
     "web-editor"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Jhone Jhee Patacsil",
+  "license": "MIT",
   "devDependencies": {
     "@lexical/headless": "^0.37.0",
     "@types/lodash-es": "^4.17.12",
