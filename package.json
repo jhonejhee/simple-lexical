@@ -1,12 +1,13 @@
 {
   "name": "@jhonejhee/simple-lexical",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple, lightweight component inspired by [Facebook's Lexical](https://github.com/facebook/lexical).  \r This project provides a minimal, watered-down version for easier integration and experimentation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && npm run copy-css",
+    "build": "tsc && npm run copy-css && npm run copy-assets",
     "copy-css": "copyfiles -u 1 src/**/*.css dist/",
+    "copy-assets": "copyfiles -u 1 src/**/*.{svg,png,jpg} dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {

@@ -1,6 +1,9 @@
 # simple-lexical
 
-A simple, lightweight component inspired by [Facebook's Lexical](https://github.com/facebook/lexical).  
+
+## Acknowledgements
+
+A simple, lightweight component inspired by [Facebook's Lexical](https://github.com/facebook/lexical), which is licensed under MIT. 
 This project provides a minimal, watered-down version for easier integration and experimentation.
 
 ---
