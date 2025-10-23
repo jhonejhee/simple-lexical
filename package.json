@@ -9,17 +9,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "@excalidraw/excalidraw": "^0.18.0",
     "@lexical/code-shiki": "^0.37.0",
     "@lexical/file": "^0.37.0",
     "@lexical/markdown": "^0.37.0",
     "@lexical/react": "^0.37.0",
     "@lexical/rich-text": "^0.37.0",
     "@lexical/utils": "^0.37.0",
-    "katex": "^0.16.25",
     "lexical": "^0.37.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^17.0.2 || ^18.0.0",
+    "react-dom": "^17.0.2 || ^18.0.0"
   },
   "keywords": [
     "react",

@@ -19,5 +19,5 @@ This package relies on a few libraries that must be installed in your project be
 To install the required peer dependencies, run:
 
 ```bash
-npm install react react-dom lexical @lexical/code-shiki @lexical/file @lexical/markdown @lexical/react @lexical/rich-text @lexical/utils @excalidraw/excalidraw katex
+npm install react react-dom lexical @lexical/code-shiki @lexical/file @lexical/markdown @lexical/react @lexical/rich-text @lexical/utils
 ```
