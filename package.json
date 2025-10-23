@@ -21,7 +21,23 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "lexical",
+    "lexical-editor",
+    "rich-text",
+    "wysiwyg",
+    "editor",
+    "text-editor",
+    "component",
+    "react-component",
+    "javascript",
+    "typescript",
+    "markdown",
+    "lightweight",
+    "ui",
+    "web-editor"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
