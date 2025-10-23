@@ -1,0 +1,41 @@
+{
+  "name": "@jhonejhee/simple-lexical",
+  "version": "1.0.0",
+  "description": "A simple, lightweight component inspired by [Facebook's Lexical](https://github.com/facebook/lexical).  \r This project provides a minimal, watered-down version for easier integration and experimentation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@excalidraw/excalidraw": "^0.18.0",
+    "@lexical/code-shiki": "^0.37.0",
+    "@lexical/file": "^0.37.0",
+    "@lexical/markdown": "^0.37.0",
+    "@lexical/react": "^0.37.0",
+    "@lexical/rich-text": "^0.37.0",
+    "@lexical/utils": "^0.37.0",
+    "katex": "^0.16.25",
+    "lexical": "^0.37.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lexical/headless": "^0.37.0",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^24.9.1",
+    "@types/prettier": "^3.0.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "date-fns": "^4.1.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "shiki": "^3.13.0"
+  }
+}

@@ -22,7 +22,6 @@ import { CollapsibleContentNode } from '../plugins/CollapsiblePlugin/Collapsible
 import { CollapsibleTitleNode } from '../plugins/CollapsiblePlugin/CollapsibleTitleNode';
 
 import { AutocompleteNode } from './AutocompleteNode';
-import { DateTimeNode } from './DateTimeNode/DateTimeNode';
 import { KeywordNode } from './KeywordNode';
 import { LayoutContainerNode } from './LayoutContainerNode';
 import { LayoutItemNode } from './LayoutItemNode';
@@ -54,7 +53,6 @@ const PlaygroundNodes: Array<Klass<LexicalNode>> = [
   LayoutContainerNode,
   LayoutItemNode,
   SpecialTextNode,
-  DateTimeNode,
 ];
 
 // eslint-disable-next-line

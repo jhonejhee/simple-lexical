@@ -37,7 +37,6 @@ import CodeHighlightPrismPlugin from './plugins/CodeHighlightPrismPlugin';
 import CodeHighlightShikiPlugin from './plugins/CodeHighlightShikiPlugin';
 import CollapsiblePlugin from './plugins/CollapsiblePlugin';
 import ContextMenuPlugin from './plugins/ContextMenuPlugin';
-import DateTimePlugin from './plugins/DateTimePlugin';
 import DraggableBlockPlugin from './plugins/DraggableBlockPlugin';
 import FloatingLinkEditorPlugin from './plugins/FloatingLinkEditorPlugin';
 import FloatingTextFormatToolbarPlugin from './plugins/FloatingTextFormatToolbarPlugin';
@@ -145,7 +144,6 @@ export default function Editor({
         <HashtagPlugin />
         <KeywordsPlugin />
         <AutoLinkPlugin />
-        <DateTimePlugin />
         <MarkdownSyncPlugin
           markdown={markdownText || ''}
           onMarkdownChange={(md) => handleEditorChange(md)}
