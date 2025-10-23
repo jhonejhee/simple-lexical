@@ -1,6 +1,6 @@
 {
   "name": "@jhonejhee/simple-lexical",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple, lightweight component inspired by [Facebook's Lexical](https://github.com/facebook/lexical).  \r This project provides a minimal, watered-down version for easier integration and experimentation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -45,6 +45,7 @@
     "@types/prettier": "^3.0.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
+    "copyfiles": "^2.4.1",
     "date-fns": "^4.1.0",
     "typescript": "^5.9.3"
   },
